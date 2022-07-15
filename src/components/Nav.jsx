@@ -10,7 +10,7 @@ const Nav = () => {
   }
 
   return (
-    <nav className='fixed w-screen top-0 bg-indigo-900 text-white flex justify-between items-center p-5 md:px-10'>
+    <nav className='fixed w-screen top-0 bg-indigo-900 text-white flex justify-between items-center p-5 z-30 md:px-10'>
         <h1 className='flex items-center text-2xl font-bold'>Trade<ion-icon size='large' name="logo-deviantart"></ion-icon>on</h1>
 
         {/* menu button */}
