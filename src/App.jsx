@@ -15,7 +15,7 @@ const App = () => {
         <Carousel />
         <div className='px-3 my-3'>
           <a href="" target="_blank">
-            <img src="https://konga.postaffiliatepro.com/scripts/bo3dhla?k_id=MoonShot&amp;k_bid=4c65bc86" alt="product-image"/>
+            <script type="text/javascript" src="https://konga.postaffiliatepro.com/scripts/bo3dhla?k_id=MoonShot&amp;k_bid=4c65bc86"></script>
           </a>
         </div>
         <Products/>
