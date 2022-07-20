@@ -9,7 +9,7 @@ const Products = () => {
         {productData?.map(obj => {
           return (
             <div className='rounded-md bg-indigo-500 text-slate-200 p-3' key={obj.id}>
-              <img className='rounded-t-md' src={obj.image} alt="product-image" />
+              <img className='rounded-t-md w-full h-60' src={obj.image} alt="product-image" />
               <h3 className='text-center text-2xl'>{obj.title}</h3>
               <p className='md:text-sm mb-3'>{obj.description}</p>
               <a className="btn" href={obj.link} target="_blank">Get Now</a>

@@ -24,7 +24,7 @@ const Carousel = () => {
         {slideData.map(obj => {
         return (
           <SwiperSlide key={obj.id} className='px-3 pb-6'>
-            <div className="card">
+            <div className="card mb-3">
               <img src={obj.image || "#"} alt="product-image" />
               <a className="btn w-40 text-center" href={obj.link || "#"} target="_blank">Explore</a>
             </div>
