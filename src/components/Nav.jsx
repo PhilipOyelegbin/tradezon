@@ -23,9 +23,9 @@ const Nav = () => {
         </button>
         
         <ul id='menuContent' className={`fixed md:flex md:items-center md:static bg-indigo-900 w-full md:w-auto md:py-0 py-4 top-12 transition-all ease-in-out duration-300 ${show ? 'right-0' : '-right-full'}`}>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#hot-deals">Hot Deals</a></li>
-            <li><a href="#products">Products</a></li>
+            <li><a href="#home" onClick={handleMenuContent}>Home</a></li>
+            <li><a href="#hot-deals" onClick={handleMenuContent}>Hot Deals</a></li>
+            <li><a href="#products" onClick={handleMenuContent}>Products</a></li>
         </ul>
     </nav>
   )
