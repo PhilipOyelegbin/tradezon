@@ -1,10 +1,10 @@
 {
-  "name": "reactweb",
+  "name": "tradezon",
   "private": true,
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "GENERATE_SOURCEMAP=false vite build",
     "preview": "vite preview"
   },
   "dependencies": {

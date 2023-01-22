@@ -1,12 +1,12 @@
-import accessories from '../images/Accessories-FB.jpg';
-import bottoms from '../images/Bottoms-FB.jpg';
-import denim from '../images/Denim-bottom-fb.jpg';
-import dress from '../images/Dress-FB.jpg';
-import dresses from '../images/Dresses-Fb.jpg';
-import sleek from '../images/Sleek-fb.jpg';
-import swimwear from '../images/swimwear-FB-2.jpg';
-import tops from '../images/Tops-FB.jpg';
-import konga from '../images/konga.png';
+import accessories from '../assets/Accessories-FB.jpg';
+import bottoms from '../assets/Bottoms-FB.jpg';
+import denim from '../assets/Denim-bottom-fb.jpg';
+import dress from '../assets/Dress-FB.jpg';
+import dresses from '../assets/Dresses-Fb.jpg';
+import sleek from '../assets/Sleek-fb.jpg';
+import swimwear from '../assets/swimwear-FB-2.jpg';
+import tops from '../assets/Tops-FB.jpg';
+import konga from '../assets/konga.png';
 
 // dynamic data for the carousel
 export const slideData = [

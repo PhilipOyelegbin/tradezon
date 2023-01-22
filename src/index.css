@@ -4,16 +4,17 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+*, ::before, ::after {
   margin: 0;
   padding: 0;
   line-height: 1.5;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 @layer base {
   body {
-    @apply bg-slate-300;
+    @apply bg-slate-100;
     font-family: 'Outfit', sans-serif;
   }
 
@@ -22,7 +23,7 @@
   }
 
   ul li {
-    @apply text-xl font-light text-white hover:text-slate-200 my-3 md:text-lg md:my-0 ml-5;
+    @apply text-xl font-light text-slate-100 hover:text-slate-300 my-3 md:my-0 ml-5;
   }
 }
 
@@ -32,10 +33,10 @@
   }
 
   .card {
-    @apply flex flex-col justify-center gap-3 bg-indigo-500 w-11/12 text-slate-200 p-3 rounded-md mx-auto;
+    @apply rounded-2xl mx-auto shadow-sm shadow-slate-500 ease-in-out duration-300 hover:bg-slate-300;
   }
 
   .btn {
-    @apply bg-white hover:bg-slate-200 text-xl text-black rounded-md px-5 py-3;
+    @apply inline-block bg-indigo-600 ease-in-out duration-300 hover:bg-indigo-500 text-xl text-slate-200 rounded-lg px-5 py-1;
   }
 }
