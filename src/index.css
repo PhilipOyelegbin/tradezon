@@ -28,6 +28,10 @@
 }
 
 @layer components {
+  #root {
+    @apply md:relative;
+  }
+
   .swiper {
     @apply md:w-11/12;
   }
