@@ -8,6 +8,8 @@ const Nav = () => {
   function handleMenuContent() {
     setShow(!show)
   }
+  
+  show ? document.getElementById("root").classList.add("fixed") : document.getElementById("root").classList.remove("fixed")
 
   return (
     <header className='fixed w-screen top-0 bg-indigo-900 text-white flex justify-between items-center p-5 z-30 md:px-20'>
