@@ -4,8 +4,8 @@ FROM node:18 AS builder
 # Set the working directory
 WORKDIR .
 
-# Copy package.json and package-lock.json first (to leverage Docker cache)
-COPY package.json package-lock.json .
+# Copy package.json first (to leverage Docker cache)
+COPY package.json .
 
 # Install dependencies
 RUN npm install
