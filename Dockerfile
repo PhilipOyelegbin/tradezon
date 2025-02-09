@@ -23,7 +23,7 @@ FROM nginx:alpine AS runner
 COPY --from=builder ./dist /usr/share/nginx/html
 
 # Expose the port Vite serves the app on
-EXPOSE 8080
+EXPOSE 3030
 
 # Start Nginx
 CMD ["nginx", "-g", "daemon off;"]
