@@ -40,4 +40,4 @@ jobs:
             docker pull philipoyelegbin/tradezon:${{ github.sha }}
             docker stop runner1 || true
             docker rm runner1 || true
-            docker run -d -p 3030:80 --name runner1 philipoyelegbin/tradezon:${{ github.sha }}
+            docker run -d -p 80:80 --name runner1 philipoyelegbin/tradezon:${{ github.sha }}
